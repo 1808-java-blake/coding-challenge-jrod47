@@ -18,7 +18,7 @@ stick lengths     length of cut     sticks before cut
 - - - - - -         done              done
 */
 function solution(arr){
-  // TODO: Create the solution
+  
 }
 
 module.exports = solution;

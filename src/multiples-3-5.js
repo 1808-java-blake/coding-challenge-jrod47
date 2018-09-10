@@ -3,6 +3,17 @@
 // Note: If the number is a multiple of both 3 and 5, only count it once.
 function solution(number){
   // TODO: Create the solution
-}
+  let total = 0;
+  for (let i = 1; i < number; i++)
+  {
+      if (i % 3 === 0 || i % 5 === 0)
+      {
+          total += i;
+      }else if(i === null){
+        total += i;
+      }
+  }
+  return total;
+  }
 
 module.exports = solution;
